@@ -1,0 +1,147 @@
+xlogin*translations:#override \
+	Ctrl<Key>R:abort-display()\n\
+	<Key>F1:set-session-argument(failsafe) finish-field()\n\
+	<Key>Return:set-session-argument() finish-field()\n\
+	Ctrl<Key>Return:set-session-argument(failsafe) finish-field()\n\
+
+xlogin*greeting:Bienvenue\040sur\040Arch
+xlogin*namePrompt:Username:\040
+xlogin*passwdPrompt:Password:\040
+xlogin*fail:Erreur\040dauthentification
+xlogin*greetFace:Bitstream\040Vera\040Sans\040Mono-36:style=Bold
+xlogin*promptFace:xos4\040Terminus-24:style=Bold
+xlogin*face:xos4\040Terminus-20
+xlogin*failFace:xos4\040Terminus-24:style=Bold
+xlogin*shdColor:#223377
+xlogin*hiColor:#223377
+xlogin*inpColor: #223377
+xlogin*greetColor:yellow
+xlogin*promptColor:grey80
+xlogin*failColor:red
+xlogin*logoFileName:/etc/X11/xdm/archlinux/arch.xpm
+xlogin*echoPasswd: true
+xlogin*echoPasswdChar: *
+xlogin*width: 800
+xlogin*height: 600
+
+*borderWidth: 0
+*foreground: grey80
+*background: #223377
+
+XClock*analog:false
+XClock*strftime:(%A)\040%F\040%T
+XClock*update:1
+XClock*render:false
+XClock*font:-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso10646-1
+XClock.width:640
+
+Xmessage*message.scrollVertical:whenNeeded
+Xmessage*message.scrollHorizontal:Never
+Xmessage*Command.highlightThickness:2
+Xmessage*Command.internalWidth:8
+Xmessage*Command.internalHeight:8
+Xmessage*Command.shapeStyle:rectangle
+Xmessage*Command.font:-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso10646-1
+Xmessage*font:-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso10646-1
+
+XConsole*verbose:true
+XConsole*exitOnFail:true
+
+Chooser*geometry:700x500
+Chooser*allowShellResize:true
+Chooser*viewport.forceBars:true
+Chooser*label.font:-*-terminus-*-*-*-*-*-*-*-*-*-*-*
+Chooser*label.label:XDMCP\040Host\040Menu\040from\040CLIENTHOST
+Chooser*list.font:-*-terminus-*-*-*-*-*-*-*-*-*-*-*
+Chooser*Command.font:-*-terminus-*-*-*-*-*-*-*-*-*-*-*
+
+
+!XTerm*faceName: Bitstream Vera Serif Mono
+XTerm*faceName: Hack-Regular
+xterm*faceSize: 9
+xterm*vt100*geometry: 70x50
+xterm*saveLines: 16384
+/*xterm*loginShell: true*/
+xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
+xterm*termName: xterm-color
+xterm*eightBitInput: false
+
+!BLK Cursor
+#define _color0        #000d18
+#define _color8        #000d18
+!RED Tag
+#define _color1        #e89393
+#define _color9        #e89393
+!GRN SpecialKey
+#define _color2        #9ece9e
+#define _color10       #9ece9e
+!YEL Keyword
+#define _color3        #f0dfaf
+#define _color11       #f0dfaf
+!BLU Number
+#define _color4        #8cd0d3
+#define _color12       #8cd0d3
+!MAG Precondit
+#define _color5        #c0bed1
+#define _color13       #c0bed1
+!CYN Float
+#define _color6        #dfaf8f
+#define _color14       #dfaf8f
+!WHT Search
+#define _color7        #efefef
+#define _color15       #efefef
+!FMT Include, StatusLine, ErrorMsg
+#define _colorBD       #ffcfaf
+#define _colorUL       #ccdc90
+#define _colorIT       #80d4aa
+!TXT Normal, Normal, Cursor
+#define _foreground    #e80000
+#define _background    #000000
+URxvt*color4         : _color4
+URxvt*color5         : _color5
+URxvt*color6         : _color6
+URxvt*color7         : _color7
+URxvt*color8         : _color8
+URxvt*color9         : _color9
+URxvt*color10        : _color10
+URxvt*color11        : _color11
+URxvt*color12        : _color12
+URxvt*color13        : _color13
+URxvt*color14        : _color14
+URxvt*color15        : _color15
+URxvt*colorBD        : _colorBD
+URxvt*colorIT        : _colorIT
+URxvt*colorUL        : _colorUL
+URxvt*foreground     : _foreground
+URxvt*background     : _background
+URxvt*cursorColor    : _cursorColor
+XTerm*color0         : _color0
+XTerm*color1         : _color1
+XTerm*color2         : _color2
+XTerm*color3         : _color3
+/*XTerm*color4         : _color4*/
+XTerm*color5         : _color5
+XTerm*color6         : _color6
+XTerm*color7         : _color7
+XTerm*color8         : _color8
+XTerm*color9         : _color9
+XTerm*color10        : _color10
+XTerm*color11        : _color11
+/*XTerm*color12        : _color12*/
+XTerm*color13        : _color13
+XTerm*color14        : _color14
+XTerm*color15        : _color15
+XTerm*colorBD        : _colorBD
+XTerm*colorIT        : _colorIT
+XTerm*colorUL        : _colorUL
+XTerm*foreground     : _foreground
+XTerm*background     : _background
+XTerm*cursorColor    : _cursorColor
+
+#Xfts
+Xft.dpi: 119
+Xft.antialias: 1
+Xft.hinting: 1
+Xft.rgba: rgb
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
