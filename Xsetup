@@ -1,0 +1,15 @@
+#!/bin/sh
+
+## the root window should have this color
+#xsetroot -solid "#223377" -cursor_name left_ptr &
+
+#xconsole -daemon -geometry 1920x1080-0+0 &
+
+
+xrandr -s 1920x1080+0+0 &
+
+xloadimage -onroot -quiet -geometry 1920x1080  /etc/X11/xdm/archlinux/ba-lxdm.png &
+
+#xclock -geometry 800x50+0-0 &
+
+#/etc/X11/xdm/archlinux/buttons -geometry 400x50-0-0 &

@@ -138,7 +138,6 @@ XTerm*foreground     : _foreground
 XTerm*background     : _background
 XTerm*cursorColor    : _cursorColor
 
-#Xfts
 Xft.dpi: 119
 Xft.antialias: 1
 Xft.hinting: 1

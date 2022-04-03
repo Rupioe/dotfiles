@@ -1,0 +1,56 @@
+xlogin*translations:#override \
+	Ctrl<Key>R:abort-display()\n\
+	<Key>F1:set-session-argument(failsafe) finish-field()\n\
+	<Key>Return:set-session-argument() finish-field()\n\
+	Ctrl<Key>Return:set-session-argument(failsafe) finish-field()\n\
+
+xlogin.Login.x:710
+xlogin.Login.y:340
+xlogin.Login.width:500
+xlogin.Login.heigth:400
+
+xlogin*greeting:Welcome\040to\040BlackArch
+xlogin*namePrompt:Username:\040
+xlogin*passwdPrompt:Password:\040
+xlogin*fail:Auth\040Error
+xlogin*greetFace:xos4\040Terminus-26:style=Bold
+xlogin*promptFace:xos4\040Terminus-19:style=Bold
+xlogin*face:Terminus-15
+xlogin*failFace:xos4\040Terminus-19:style=Bold
+xlogin*shdColor:#000000
+xlogin*hiColor:#000000
+xlogin*inpColor: #000000
+xlogin*greetColor:#740000
+xlogin*promptColor:#636562
+xlogin*failColor:red
+xlogin*echoPasswd: false
+xlogin.Login.allowRootLogin:false
+
+*foreground: grey80
+*background: #000000
+
+XClock*analog:false
+XClock*strftime:\040%s\040(%A)\040%F\040%T\040[%Z]
+XClock*update:1
+XClock*render:false
+XClock*font:-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso10646-1
+
+Xmessage*message.scrollVertical:whenNeeded
+Xmessage*message.scrollHorizontal:Never
+Xmessage*Command.highlightThickness:2
+Xmessage*Command.internalWidth:8
+Xmessage*Command.internalHeight:8
+Xmessage*Command.shapeStyle:rectangle
+Xmessage*Command.font:-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso10646-1
+Xmessage*font:-xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso10646-1
+
+XConsole*verbose:true
+XConsole*exitOnFail:true
+
+Chooser*geometry:700x500
+Chooser*allowShellResize:false
+Chooser*viewport.forceBars:true
+Chooser*label.font:-*-terminus-*-*-*-*-*-*-*-*-*-*-*
+Chooser*label.label:XDMCP\040Host\040Menu\040from\040CLIENTHOST
+Chooser*list.font:-*-terminus-*-*-*-*-*-*-*-*-*-*-*
+Chooser*Command.font:-*-terminus-*-*-*-*-*-*-*-*-*-*-*

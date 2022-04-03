@@ -1,0 +1,14 @@
+set from = "cancan35bzh@gmail.com"
+set realname = "Quentin"
+set imap_user = "cancan35bzh@gmail.com"
+set imap_pass = "///lcpy3574!///"
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set postponed ="+[Gmail]/Drafts"
+set header_cache =~/.mutt/cache/headers
+set message_cachedir =~/.mutt/cache/bodies
+set certificate_file =~/.mutt/certificates
+set smtp_url = "smtp://cancan35bzh@smtp.gmail.com:587/"
+set smtp_pass = "///lcpy3574!///"
+set move = no 
+set imap_keepalive = 900
