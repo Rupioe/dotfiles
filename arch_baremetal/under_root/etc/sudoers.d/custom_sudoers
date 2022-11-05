@@ -1,0 +1,20 @@
+# Commands that I often need to execute as rupioe
+rupioe ALL = (root)  /usr/bin/pacman -S *, /usr/bin/yay -S *, /bin/pacman -U *, /bin/pacman -D *, /usr/bin/reboot, /usr/bin/shutdown, /usr/bin/halt, /bin/make
+
+# Every body can do this
+# ALL ALL = /path/to/command
+
+# Files that should be edited by certain people needing privilegies
+# rupioe ALL = sudoedit /etc/sudoers
+
+# Password inputs settings
+Defaults insults, passwd_tries=3
+Defaults@!Darchrai passwd_tries=3, badpass_message = "Wrong password you dumb motherfucker."
+Defaults passprompt="gimme da password for %u: "
+Defaults timestamp_timeout=1
+
+# ENV security 
+Defaults secure_path="/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"
+
+# visudo recovery rule
+root ALL=(ALL:ALL) ALL

@@ -1,0 +1,6 @@
+# Static table lookup for hostnames.
+# See hosts(5) for details.
+
+# Tests virtual host apache
+127.0.0.1 comeback.tp
+192.168.1.38 pimp.que
