@@ -1,0 +1,24 @@
+swipe:
+  3: 
+    left: 
+      sendkey: 'LEFTALT+RIGHT'
+    right: 
+      sendkey: 'LEFTALT+LEFT'
+    up: 
+      sendkey: 'LEFTALT+LEFTSHIFT+TAB'
+    down: 
+      sendkey: 'LEFTALT+TAB'
+pinch:
+  in:
+    #sendkey: 'LEFTALT+LEFTSHIFT+TAB'
+    sendkey: 'LEFTCTRL+KPPLUS'
+  out:
+    sendkey: 'LEFTCTRL+KPMINUS'
+
+threshold:
+  swipe: 0.5
+  pinch: 0.2
+
+interval:
+  swipe: 0.2
+  pinch: 0.3

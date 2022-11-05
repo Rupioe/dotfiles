@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/rupioe/.config/alacritty'
+let g:netrw_dirhist_9='/System/Resources/Polybar'
+let g:netrw_dirhist_8='/home/rupioe/.config/alacritty'
+let g:netrw_dirhist_7='/home/rupioe/.config/betterlockscreen'
+let g:netrw_dirhist_6='/home/rupioe/.config'
+let g:netrw_dirhist_5='/home/rupioe/Downloads'
+let g:netrw_dirhist_4='/c/Users/Quentin/Desktop/Documents/apps_indep/mans/vimcult'
+let g:netrw_dirhist_3='/home/rupioe/git-clones/komorebi/komorebi-2.1/src/OnScreen'
+let g:netrw_dirhist_2='/System/Resources/Komorebi/vimify'
+let g:netrw_dirhist_1='/System/Resources/Komorebi'
