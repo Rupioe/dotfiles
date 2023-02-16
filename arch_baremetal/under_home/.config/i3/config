@@ -216,7 +216,8 @@ client.background       #ffffff
 #exec --no-startup-id komorebi
 
 # Nitrogen :
-exec --no-startup-id nitrogen --set-zoom-fill /System/Resources/Nitrogen/doom.jpg
+#exec --no-startup-id nitrogen --set-zoom-fill /System/Resources/Nitrogen/doom.jpg
+exec --no-startup-id nitrogen --set-zoom-fill /System/Resources/Nitrogen/die.jpg
 
 # Unclutter :
 exec --no-startup-id unclutter
