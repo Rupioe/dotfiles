@@ -33,13 +33,23 @@ SHIFT + WIN + H/J/K/L move gauche bas haut droit
 
 MS shortcuts sur appli mainstream :
 CTRL + end va à la fin du document
-CTRL A select all
-CTRL C/V/X copy paste cut
-CTRL S or CTRL SHIFT S or CTRL ALT S to save or save as
-CTRL Z undo
-CTRL Y redo
-SHIFT left select one character ahead
+CTRL + A select all
+CTRL + C/V/X copy paste cut
+CTRL + S or CTRL SHIFT S or CTRL ALT S to save or save as
+CTRL + Z undo
+CTRL + Y redo
+SHIFT + left select one character ahead
 CTRL SHIFT right/left select next/previous word
 CTRL + right/left move one word right or left
 CTRL + BS erases 1 word left
 CTRL + DEL erases 1 word right
+
+
+Remplacer fleches et suppr :
+CTRL + F fleche droite
+CTRL + B fleche gauche
+
+CTRL + H backspace
+CTRL + D delete et quitte terminal si input vide
+
+CTRL + M/J enter
