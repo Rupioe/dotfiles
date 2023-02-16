@@ -1,0 +1,168 @@
+MY FIRST ACTUAL ARCH LINUX RICE ----------------
+Goals : Creating a GUI for Arch64 needing only a keyboard to be used fully and working with vim, or vi-like commands.
+It is designed to be not too heavy, poowerful, fast and practical, tho not that user friendly
+
+APPS AND PLUGINS DB :---------------------------
+https://vim.reversed.top/
+https://vimawesome.com/
+
+GUI tools :--------------------------------------
+
+Arch : x86_64 
+
+X Boot loader
+X GRUB EFI
+
+-Window server
+X Xorg + xwindow
+
+-Terminal Emulator
+X alacritty
+X athame
+
+-File Manager
+X Ranger
+
+-Window Manager
+X i3-gaps
+
+-Taskbars
+X Polybar
+
+-Application launchers
+X i3
+X lighthouse
+
+-Application menu editors
+X menulibre
+
+-Wallpaper setters
+X variety
+X komorebi
+
+-Desktop widgets
+X conky
+
+-Clipboard managers
+X copyQ
+X xclip
+
+-Login
+X LightDM
+
+-Session Lock/Screen
+X betterlockscreen
+
+-Shell
+X Bash (athame)
+
+-Dotfile
+Rsync git et organisation des dotfile manuelle
+X xdg-user-dirs
+
+-Audio
+X ALSA
+
+-Fonts
+X Hack
+
+-Fingerprint GUI
+
+
+-Repositories :
+X Official
+X Blackarch
+
+NOTES -----------------------
+webkitgtk2 est dans la ignore liste (no-update)
+SecureBoot EFI est désactivé, la partition windows C: n'est pas bitlocked
+Attention aux perm /home
+Faire un dotfile clean
+préparer les sudo et groupes
+répertoires gitclones etc
+
+TODO :
+X Network setup
+X basic packages install
+
+DOTFILES -----------------------------
+.bashrc : alias la='ls -a' ; alias ll='ls -l'
+ajouter d'autres alias pour les soft trop longs a taper 
+
+
+PACKET SECTION (many more but installed as dependencies and will be installed bythemselves as I need them)
+----------------------------------------------------------------------------------------------------------
+X VLC
+X btop
+X calc
+X cmake
+X curl
+X discord
+X doge
+X fakeroot
+X firefox
+X gcc
+X glibc
+X grub
+X linux-headers
+X make
+X man-db
+X nano
+X nasm
+X ncurses
+X neofetch
+X openssh server/client
+X perl
+X pkgconf
+X python
+X qiv
+X rust
+X scrot
+X sdl1/2
+X sed
+X shellcheck
+X sudo
+X systemd
+X tor
+X vimtutor
+X wget
+X which
+X xcalc
+X xdg-user-dirs
+X xorg-...
+X xrandr
+X xv
+X yay
+X zip
+
+
+vim-like:
+apvlv
+X athame
+bvi
+cgdb
+less
+X lynx -vikeys
+mutt : sendmail procmail m4 postfix
+ncdu
+X neovim
+pipedial
+pms
+pyradio
+qutebrowser
+X ranger
+rx
+sc
+stig
+taskell
+X vim
+vim-anywhere
+vimpdb
+
+vim plugins :
+X vim misc
+X vim notes
+X nerdtree
+X vim floaterm
+X open browser
+X vim syntax extra
