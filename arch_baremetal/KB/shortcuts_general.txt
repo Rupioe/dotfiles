@@ -1,0 +1,45 @@
+Desktop :
+WIN D Lancer une application
+WIN 1/2/3/4/5/... changer de bureau
+WIN ALT ESP reload polybar
+ALT ESP hide/show polybar
+WIN SHIFT ->/<-/haut/bas déplacer fenetre au travers d'un meme bureau
+WIN SHIFT 1/2/3/4/5/... envoyer la fenetre selectionné dans un bureau
+WIN FLECHE selectionenr fenetre
+
+Firefox et/ou vim :
+t ouvrir un nouvel onglet
+gt
+gT se deplacer avant arriere
+CTRL W kill une fenetre
+
+
+
+CTRL A pour aller à la fin d'une ligne
+CTRL E pour aller au début
+CTRL U pour effacer jusqu'à la fin
+CTRL K pour effacer jusqu'au début 
+CTRL P commande précédente
+CTRL N commande suivante
+CTRL L clear
+CTRL O exec commande sans effacer la ligne
+CTRL Y pour écrire ce que tu as effacé
+
+
+I3 vim opti :
+CTRL + WIN + H/J/K/L focus gauche bas haut droit
+SHIFT + WIN + H/J/K/L move gauche bas haut droit
+
+
+MS shortcuts sur appli mainstream :
+CTRL + end va à la fin du document
+CTRL A select all
+CTRL C/V/X copy paste cut
+CTRL S or CTRL SHIFT S or CTRL ALT S to save or save as
+CTRL Z undo
+CTRL Y redo
+SHIFT left select one character ahead
+CTRL SHIFT right/left select next/previous word
+CTRL + right/left move one word right or left
+CTRL + BS erases 1 word left
+CTRL + DEL erases 1 word right
