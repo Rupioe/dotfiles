@@ -68,6 +68,9 @@ X Hack
 
 -Fingerprint GUI
 
+-Mouse G502 :
+X piper
+X keyd
 
 -Repositories :
 X Official
